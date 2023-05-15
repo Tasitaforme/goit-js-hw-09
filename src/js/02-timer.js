@@ -68,7 +68,6 @@ startBtn.addEventListener('click', () => {
 
 function clearTimer() {
     Notify.info('The timer is cleared, select a new date');
-    startBtn.removeAttribute('disabled');
     inputEl.removeAttribute('disabled');
     clearInterval(timerId);
 }
